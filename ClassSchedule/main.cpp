@@ -8,7 +8,7 @@ This lab is to show our ability to creat a class schedule and creating a checkbo
 #include <iostream>
 #include <string>
 
-void TestFunction();
+void OutputHeader();
 const std::string m = "Monday";
 const std::string t = "Tuesday";
 const std::string w = "Wednesday";
@@ -28,7 +28,7 @@ const std::string P = "*  *  *  *";
 int main()
 {
 
-	TestFunction();
+	OutputHeader();
 	std::cout << std::endl << m << s << s << eam << s << c;
 	std::cout << std::endl << m << s << s << T << s << z;
 	std::cout << std::endl << t << s << s << et << s << e;
@@ -43,6 +43,8 @@ int main()
 	std::cout << std::endl << f << s << s << eam << s << c;
 	std::cout << std::endl << f << s << s << T << s << z;
 	std::cout << std::endl << f << s << s << tw << s << C;
+	/*I did my class schedule for Fall of 2022 by assigning letters to diferrent words and times, to be able to understand the use of a string and optimize and simplify my work 
+	*/
 	std::cout << std::endl << p;
 	std::cout << std::endl << P;
 	std::cout << std::endl << p;
@@ -51,11 +53,11 @@ int main()
 	std::cout << std::endl << P;
 	std::cout << std::endl << p;
 	std::cout << std::endl << P;
-
+	/* On this part I did a checkboar that was really easy to do, the only toruble that I encounter was when I used the shortcout for Tab, some starts were aline*/
 	return 0;
 }
 
-void TestFunction()
+void OutputHeader()
 {
 	std::cout << "Class Schedule and Checbkoard";
 }
